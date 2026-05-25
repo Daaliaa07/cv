@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>بورتفوليو المجموعة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header / Nav -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <span class="logo-icon">✦</span>
+                <span>بورتفوليو المجموعة</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">الرئيسية</a></li>
+                <li><a href="#members">الأعضاء</a></li>
+                <li><a href="#supervisor">المشرف</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-content container">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>مجموعة أكاديمية متميزة</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="line-1">نحو مستقبل</span>
+                <span class="line-2 gradient-text">أكاديمي مشرق</span>
+            </h1>
+            <p class="hero-desc">
+                مجموعة من الطالبات المتميزات يسعين لتحقيق التفوق والإبداع في مسيرتهن العلمية، تحت إشراف الأستاذة زواوي سامية.
+            </p>
+            <div class="hero-btns">
+                <a href="#members" class="btn btn-primary">
+                    <span>تعرف على الأعضاء</span>
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+                </a>
+                <a href="#supervisor" class="btn btn-outline">المشرفة</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-num">5</span>
+                    <span class="stat-label">طالبات</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-num">1</span>
+                    <span class="stat-label">مشرفة</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-num">∞</span>
+                    <span class="stat-label">طموح</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>اسحب للأسفل</span>
+        </div>
+    </section>
+
+    <!-- Supervisor Section -->
+    <section class="supervisor-section" id="supervisor">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">الإشراف الأكاديمي</span>
+                <h2 class="section-title">المشرفة</h2>
+            </div>
+            <div class="supervisor-card" onclick="window.location.href='supervisor.html'">
+                <div class="sup-glow"></div>
+                <div class="sup-avatar">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-inner">ز.س</div>
+                </div>
+                <div class="sup-info">
+                    <span class="sup-role">المشرفة الأكاديمية</span>
+                    <h3 class="sup-name">زواوي سامية</h3>
+                    <p class="sup-desc">تتولى الإشراف على المجموعة وتوجيه الطالبات نحو تحقيق أهدافهن الأكاديمية والمهنية بخبرة وكفاءة عالية.</p>
+                    <div class="sup-btn">
+                        <span>عرض السيرة الذاتية</span>
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </div>
+                </div>
+                <div class="sup-badge">مشرفة</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Members Section -->
+    <section class="members-section" id="members">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">فريق العمل</span>
+                <h2 class="section-title">الطالبات</h2>
+                <p class="section-sub">اضغطي على أي بطاقة للاطلاع على السيرة الذاتية الكاملة</p>
+            </div>
+            <div class="members-grid">
+
+                <div class="member-card" onclick="window.location.href='dalia.html'" style="--i:1">
+                    <div class="card-glow"></div>
+                    <div class="card-number">01</div>
+                    <div class="card-avatar">
+                        <div class="avatar-bg"></div>
+                        <span>ح.د</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>حدادي داليا</h3>
+                        <span class="card-tag">طالبة</span>
+                    </div>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </div>
+                    <div class="card-shine"></div>
+                </div>
+
+                <div class="member-card" onclick="window.location.href='mariam.html'" style="--i:2">
+                    <div class="card-glow"></div>
+                    <div class="card-number">02</div>
+                    <div class="card-avatar">
+                        <div class="avatar-bg"></div>
+                        <span>م.ع</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>مريم عتروس</h3>
+                        <span class="card-tag">طالبة</span>
+                    </div>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </div>
+                    <div class="card-shine"></div>
+                </div>
+
+                <div class="member-card" onclick="window.location.href='warda.html'" style="--i:3">
+                    <div class="card-glow"></div>
+                    <div class="card-number">03</div>
+                    <div class="card-avatar">
+                        <div class="avatar-bg"></div>
+                        <span>ز.و</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>زروخي وردة</h3>
+                        <span class="card-tag">طالبة</span>
+                    </div>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </div>
+                    <div class="card-shine"></div>
+                </div>
+
+                <div class="member-card" onclick="window.location.href='manar.html'" style="--i:4">
+                    <div class="card-glow"></div>
+                    <div class="card-number">04</div>
+                    <div class="card-avatar">
+                        <div class="avatar-bg"></div>
+                        <span>ج.م</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>جار الله منار</h3>
+                        <span class="card-tag">طالبة</span>
+                    </div>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </div>
+                    <div class="card-shine"></div>
+                </div>
+
+                <div class="member-card" onclick="window.location.href='intissar.html'" style="--i:5">
+                    <div class="card-glow"></div>
+                    <div class="card-number">05</div>
+                    <div class="card-avatar">
+                        <div class="avatar-bg"></div>
+                        <span>م.ا</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>ميموني انتصار اسيا</h3>
+                        <span class="card-tag">طالبة</span>
+                    </div>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </div>
+                    <div class="card-shine"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-logo">
+                    <span class="logo-icon">✦</span>
+                    <span>بورتفوليو المجموعة</span>
+                </div>
+                <p class="footer-text">تحت إشراف الأستاذة زواوي سامية</p>
+                <div class="footer-line"></div>
+                <p class="footer-copy">Dalia Haddadi.© 2026 جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
